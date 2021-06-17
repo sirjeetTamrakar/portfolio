@@ -1,5 +1,4 @@
 import React, { useState,useEffect } from "react";
-import emailjs from 'emailjs-com'
 import styles from '../styles/Contact.module.css'
 import Navbar1 from "../components/Navbar1";
 
@@ -17,17 +16,22 @@ const contact = () => {
     return () => clearTimeout(timeout)
   }, [alert])
   
-  const sendEmail = (e) => {
+  async function sendEmail (e){
     e.preventDefault()
-    emailjs.sendForm('service_2gswzwv', 'template_2gamusm', e.target, 'user_BoL6jhzMm2dNvVpf04Zck')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-    e.target.reset()
+    const formData = {}
+    Array.from(e.currentTarget.elements).forEach(field => {
+      if (!field.name) return;
+      formData[field.name] = field.value
+    });
+    fetch('/api/mail', {
+      method: 'post',
+      body:JSON.stringify(formData)
+    })
     setSent(true)
+    console.log(formData)
+    e.target.reset()
   }
+
 
   return (
     <>

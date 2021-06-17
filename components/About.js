@@ -14,11 +14,11 @@ const About = () => {
                     <h4 >Playing Guitar</h4>
                 </div>
                 <div  className={styles.icon}>
-                    <i class="fas fa-gamepad"></i>
+                    <i className="fas fa-gamepad"></i>
                     <h4>Games</h4>
                 </div>
                 <div  className={styles.icon}>
-                    <i class="fas fa-dumbbell"></i>
+                    <i className="fas fa-dumbbell"></i>
                     <h4>Workout</h4>
                 </div>
             </div>
