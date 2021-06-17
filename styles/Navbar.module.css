@@ -1,0 +1,71 @@
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.header{
+    background-color: black;
+    height: 5rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.icon{
+    display: flex;
+    justify-content:center;
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    letter-spacing: 2rem;
+    margin-inline-start: 2rem;
+    cursor: pointer;
+}
+
+.linki{
+    text-decoration: none;
+    color:rgb(202, 201, 201);
+    padding-inline: 2rem;
+    padding-bottom: 1rem;
+    font-size:x-large;
+
+}
+
+.phone{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.i:nth-child(1):hover{
+    color: rgb(121, 224, 173);
+}
+.i:nth-child(2):hover{
+    color: rgb(245, 140, 193);
+}
+.i:nth-child(3):hover{
+    color: rgb(119, 200, 238);
+}
+
+.linki:hover{
+    color: white;
+
+    border-bottom: 5px solid white;
+    
+}
+
+.a{
+    text-decoration: none;
+    color: white;
+}
+
+.a:hover{
+    color: rgb(233, 48, 104);
+}
+
+@media screen and (max-width:1025px) {
+    .header{
+        height: max-content;
+    }
+}

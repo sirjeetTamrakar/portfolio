@@ -1,0 +1,75 @@
+.main{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 4rem;
+    min-height: 40vh;
+        font-family: 'Montserrat', sans-serif;
+
+}
+
+.about{
+    background-color: white;
+    color: rgb(37, 36, 36);
+    width: 80%;
+    padding: 2rem;
+    border-radius: 1rem;
+    letter-spacing: .1rem;
+    word-spacing: .5rem;
+}
+
+.interest{
+    margin-top: 4rem ;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    cursor: pointer;
+}
+
+.icon{
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    transition: all .3s ease-in-out;
+
+}
+
+.head{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .5rem;
+    font-size:3rem;
+    margin:2rem 0rem;
+}
+
+.icon:hover{
+    color:rgb(0, 255, 179);
+    transform: scale(1.05);
+    transition: all .3s ease-in-out;
+
+}
+
+@media screen and (max-width:700px){
+    .interest{
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 2rem;
+    }
+
+    .about{
+        width: 100%;
+    }
+    .main{
+        padding: 1rem;
+    }
+
+    .head{
+        font-size:2rem;
+    }
+
+}

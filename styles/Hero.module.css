@@ -1,0 +1,78 @@
+.hero{
+    color: white;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    width: 100%;
+    height: 95vh;
+    background-color: black;
+    padding-top: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.me{
+    padding-left: 2rem;  
+    padding-bottom: 2rem;
+}
+
+.image{
+    transition: all .4s ease-in-out;
+}
+
+.image:hover{
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+}
+
+
+
+.title{font-size: 3.5rem;}
+
+.title:hover{
+    color: aqua;
+    cursor: pointer;
+    
+}
+
+.overlay{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background-color: black;
+}
+
+.button{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 999rem;
+    padding: .5rem 2rem;
+    border: 2px solid white;
+    margin-top:2rem;
+    transition: all .1s ease-in-out;
+}
+
+.button:hover{
+        transition: all .1s ease-in-out;
+        color: aqua;
+        border: 2px solid aqua;
+
+}
+
+@media screen and (max-width:1025px) {
+    .overlay{
+        display: none;
+    }
+    .hero{
+        display: flex;
+        justify-content: center;
+        height: 85vh;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .title{
+        font-size: 5rem;
+    }
+}
+
+
