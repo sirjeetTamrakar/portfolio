@@ -4,13 +4,12 @@
     color: white;
     padding: 2rem;
     font-family: 'Montserrat', sans-serif;
-    padding-top: 8rem;
+    padding-top: 4rem;
 
 }
 
 .header{
-    background-color: black;
-    height: 5rem;
+    background-color: rgba(0,0,0,.9);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -79,11 +78,6 @@
     transition: all 0.2s ease-in-out;
 }
 
-@media screen and (max-width:1025px) {
-    .header{
-        height: max-content;
-    }
-}
 
 @media screen and (max-width:500px) {
     .i{

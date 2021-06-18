@@ -29,6 +29,8 @@
     width: 90%;
     cursor: pointer;
     margin-left: 2rem;
+    padding-bottom: 4rem;
+    border-bottom: 2px solid whitesmoke;
 }
 
 .icon{
