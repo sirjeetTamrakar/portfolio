@@ -11,7 +11,9 @@
 .header{
     background-color: rgba(0,0,0,.95);
     font-family: 'Montserrat', sans-serif;
-    position: relative;
+    position: sticky;
+    top:0;
+    z-index: 2;
 }
 
 .icon{
