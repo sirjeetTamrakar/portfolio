@@ -4,7 +4,7 @@ import styles from '../styles/Navbar.module.css'
 const Footer = () => {
     return (
         <>
-            <div className={`${styles.footer} px-4`}>
+            <div id='contact' className={`${styles.footer} px-4`}>
             <h4>Copyright &copy; 2021 Sirjeet Tamrakar | All Rights Reserved.</h4>
                 <div className={styles.icon}>
                     <a href="https://www.instagram.com/__srijeet__/" target='blank' className={styles.a}><i className="fab fa-instagram"></i></a>

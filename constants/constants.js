@@ -1,4 +1,3 @@
-  
 export const projects = [
   {
     title: 'Countdown',
@@ -46,3 +45,19 @@ export const TimeLineData = [
   { year: '2015-2017', text: 'HSEB, Xavier Academy, Lazimpat, Kathmandu', },
   { year: '2015', text: 'SLC, Brihaspati Vidyasadan, Naxal, Kathmandu', },
 ];
+
+export const tech = [
+  { icon: 'devicon-mongodb-plain', text: 'MongoDB' },
+  { icon: 'devicon-express-original', text: 'Express' },
+  { icon: 'devicon-react-original', text: 'React' },
+  { icon: 'devicon-nodejs-plain', text: 'Node JS' },
+  { icon: 'devicon-python-plain', text: 'Python' },
+  { icon: 'devicon-java-plain', text: 'Java' },
+  { icon: 'devicon-nextjs-original-wordmark', text: 'Next JS' },
+  { icon: 'devicon-redux-original', text: 'Redux' },
+  { icon: 'devicon-npm-original-wordmark', text: 'npm' },
+  { icon: 'devicon-bootstrap-plain', text: 'Bootstrap' },
+  { icon: 'devicon-materialui-plain', text: 'Material UI' },
+  { icon: 'devicon-c-plain', text: 'C' },
+  
+]

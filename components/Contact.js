@@ -1,8 +1,7 @@
 import React, { useState,useEffect } from "react";
 import styles from '../styles/Contact.module.css'
-import Navbar1 from "../components/Navbar1";
 
-const contact = () => {
+const Contact = () => {
   const [sent, setSent] = useState(false)
   const [alert, setAlert] = useState(false)
   const done = () => {
@@ -16,35 +15,28 @@ const contact = () => {
     return () => clearTimeout(timeout)
   }, [alert])
   
-  async function sendEmail (e){
+  const sendEmail = (e) => {
     e.preventDefault()
-    const formData = {}
-    Array.from(e.currentTarget.elements).forEach(field => {
-      if (!field.name) return;
-      formData[field.name] = field.value
-    });
-    fetch('/api/mail', {
-      method: 'post',
-      body:JSON.stringify(formData)
-    })
-    setSent(true)
-    console.log(formData)
+    emailjs.sendForm('service_2gswzwv', 'template_2gamusm', e.target, 'user_BoL6jhzMm2dNvVpf04Zck')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
     e.target.reset()
+    setSent(true)
   }
-
 
   return (
     <>
-      <Navbar1/>
-      {alert && <div className='d-flex justify-content-center text-white position-sticky' style={{ backgroundColor: 'black', paddingBottom: '2rem', fontSize:'3rem'}}>Email Sent!</div>}
-      <div className={styles.black}>
+      {alert&&<div className='d-flex justify-content-center text-white' style={{backgroundColor:'black'}}>Email Sent!</div>}
       <div className={`mx-auto ${styles.form}`}>
         <div data-aos="zoom-in-right" className={styles.imgBg}>
-          <img className={styles.imgForm} src={sent ? '/images/sent.jpg' : '/images/contact.jpg'} alt='Snow' />
+          <img className={styles.imgForm} src={sent ? '/images/sent.jpg' : '/images/c1.png'} alt='Snow' />
           <div className={styles.center}>
-            <h4><i className="fas fa-home"></i> Baluwatar, Kathmandu</h4>
-            <h4><i className="fas fa-envelope"></i> sirjeettamrakar007@gmail.com</h4>
-            <h4><i className="fas fa-phone-square-alt"></i> 9860913929</h4>
+            <h2>Address: Baluwatar, Kathmandu</h2>
+            <h2>sirjeettamrakar007@gmail.com</h2>
+            <h2>9860913929</h2>
           </div>
         </div>
         <form data-aos="zoom-in-left" className={`mx-auto ${styles.w}`} onSubmit={sendEmail}>
@@ -56,9 +48,8 @@ const contact = () => {
             <button className={`btn btn-danger ${styles.submit}`} type='submit' onClick={() => done()}>Send Email</button>
           </form>
         </div>
-        <div className={styles.bg} />
-      </div>
+      <div className={styles.bg}/>
     </>
 )}
 
-export default contact;
+export default Contact;

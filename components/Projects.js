@@ -9,13 +9,13 @@ const Projects = () => {
         <div>
         <h1  className={styles.head}>PROJECTS</h1>
         <div className={styles.main} >
-            {projects.map(({title, visit, images, tags, id}) => (
+            {projects.map(({title, visit, images, tags, id }) => (
                 <div className={styles.div} data-aos="zoom-in-up" key={id} >
                     <div className={styles.overflow} >
                         <Carousel  nextIcon='' prevIcon=''>
                             {images.map((image, i) => (
                                 <Carousel.Item  className={styles.overflow} key={i}>
-                                    <Image    priority='true' className={styles.image} src={image} layout='fill' quality={50} alt='project_image' />
+                                    <Image data-aos="zoom-in-down"   priority className={styles.image} src={image} layout='fill' quality={10} alt='project_image' />
                                 </Carousel.Item>
                             ))}
                         </Carousel>
