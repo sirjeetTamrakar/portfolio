@@ -25,12 +25,15 @@
 
 
 
-.title{font-size: 3.5rem;}
+.title{
+    font-size: 3.5rem;
+    transition: all .1s ease-in-out;
+}
 
 .title:hover{
     color: aqua;
     cursor: pointer;
-    
+    transition: all .1s ease-in-out;
 }
 
 .overlay{

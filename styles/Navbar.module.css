@@ -4,6 +4,7 @@
     color: white;
     padding: 2rem;
     font-family: 'Montserrat', sans-serif;
+    padding-top: 8rem;
 
 }
 
@@ -66,7 +67,7 @@
 
 .a{
     text-decoration: none;
-    color: white;
+    color: rgb(180, 180, 180);
     transition: all 0.2s ease-in-out;
 }
 
@@ -79,5 +80,11 @@
 @media screen and (max-width:1025px) {
     .header{
         height: max-content;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .i{
+        font-size: small;
     }
 }
