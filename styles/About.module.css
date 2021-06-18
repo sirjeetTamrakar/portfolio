@@ -77,3 +77,13 @@
     }
 
 }
+
+@media screen and (max-width:300px){
+    .head{
+        font-size:1.2rem;
+    }
+    .interest{
+        grid-template-columns: auto;
+
+    }
+}

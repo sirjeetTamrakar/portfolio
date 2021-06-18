@@ -14,14 +14,14 @@ const Projects = () => {
                     <div className={styles.overflow} >
                         <Carousel  nextIcon='' prevIcon=''>
                             {images.map((image, i) => (
-                                <Carousel.Item  className={styles.overflow} key={i}>
-                                    <Image data-aos="zoom-in-down"   priority className={styles.image} src={image} layout='fill' quality={10} alt='project_image' />
+                                <Carousel.Item key={i}>
+                                    <Image data-aos="zoom-in-down" placeholder='blur'  priority className={styles.image} src={image} height={810} width={1080} quality={10} alt='project_image' />
                                 </Carousel.Item>
                             ))}
                         </Carousel>
                     </div>
                     <div className={styles.title}>
-                        <h1>{title.toUpperCase()}</h1>
+                        <h1 className={styles.h1}>{title.toUpperCase()}</h1>
                         <div className={styles.tags} >
                         {tags.map((tag, i) => (
                             <h6 className={styles.tag} key={i}>{tag}</h6>

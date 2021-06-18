@@ -41,6 +41,8 @@
 
 .i{
     transition: all 0.2s ease-in-out;
+    font-size: x-large;
+    letter-spacing: .1rem;
 }
 
 .i:hover{
@@ -85,6 +87,12 @@
 
 @media screen and (max-width:500px) {
     .i{
-        font-size: small;
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .i{
+        font-size: .7rem;
     }
 }

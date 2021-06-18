@@ -59,10 +59,10 @@
 .item:nth-child(6):hover{
     color:rgb(255, 102, 0);
 }
-.item:nth-child(7):hover{
-    color:#ec8fc9;
-}
 
+.item:nth-child(7):hover{
+    color:#4FC3F7;
+}
 .item:nth-child(8):hover{
     color:#764abc;
 }
@@ -73,10 +73,10 @@
 .item:nth-child(10):hover{
     color:#563d7c;
 }
-.item:nth-child(11):hover{
-    color:#4FC3F7;
-}
 
+.item:nth-child(11):hover{
+    color:#ec8fc9;
+}
 .item:nth-child(12):hover{
     color:#4dca9a   ;
 }
@@ -98,3 +98,16 @@
         font-size:1.7rem;
     }
 }
+
+@media screen and (max-width:300px){
+    .head{
+        font-size:1.2rem;
+    }
+}
+
+@media screen and (max-width:220px){
+    .head{
+        font-size:.7rem;
+    }
+}
+

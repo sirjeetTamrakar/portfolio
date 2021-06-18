@@ -63,3 +63,9 @@
         font-size:2rem;
     }
 }
+
+@media screen and (max-width:300px){
+    .head{
+        font-size:1.2rem;
+    }
+}

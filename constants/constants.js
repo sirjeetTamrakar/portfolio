@@ -53,11 +53,11 @@ export const tech = [
   { icon: 'devicon-nodejs-plain', text: 'Node JS' },
   { icon: 'devicon-python-plain', text: 'Python' },
   { icon: 'devicon-java-plain', text: 'Java' },
-  { icon: 'devicon-nextjs-original-wordmark', text: 'Next JS' },
+  { icon: 'devicon-materialui-plain', text: 'Material UI' },
   { icon: 'devicon-redux-original', text: 'Redux' },
   { icon: 'devicon-npm-original-wordmark', text: 'npm' },
   { icon: 'devicon-bootstrap-plain', text: 'Bootstrap' },
-  { icon: 'devicon-materialui-plain', text: 'Material UI' },
+  { icon: 'devicon-nextjs-original-wordmark', text: 'Next JS' },
   { icon: 'devicon-c-plain', text: 'C' },
   
 ]

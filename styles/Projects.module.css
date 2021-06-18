@@ -58,10 +58,6 @@
 }
 
 .overflow{
-    width: 100%;
-    height: 55vh;
-    position: relative;
-    overflow: hidden;
     border-radius: 1rem;
 }
 
@@ -133,10 +129,6 @@
         border-radius: 0rem;
     }
 
-    .overflow{
-        height: 40vh;
-       border-radius: 0rem; 
-    }
 
     .head{
         font-size:2rem;
@@ -152,4 +144,17 @@
         padding: 1rem;
     }
     
+}
+
+@media screen and (max-width:300px){
+    .head{
+        font-size:1.2rem;
+    }
+    .h1{
+        font-size:1.2rem;
+    }
+    .tags{
+        grid-template-columns: auto;
+    }
+
 }
