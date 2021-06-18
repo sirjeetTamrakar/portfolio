@@ -9,7 +9,7 @@ const NavBar = () => {
         <>
             <Navbar  expanded={expanded} sticky='top' className={styles.header} expand="lg">
                 <Navbar.Toggle style={{color:'white'}} onClick={() => setExpanded(expanded ? false : "expanded")} >{!expanded ? <i className="fas fa-bars"></i> : <i className="fas fa-times"></i>}</Navbar.Toggle>
-                <Navbar.Collapse onClick={() => setExpanded(expanded ? false : "expanded")} className="justify-content-start" style={{position:'absolute', zIndex:1}}>
+                <Navbar.Collapse onClick={() => setExpanded(expanded ? false : "expanded")} className="justify-content-start" style={{position:'absolute', zIndex:2}}>
                 <Nav>
                     <Link href='/#home'><a className={styles.linki} > HOME </a></Link>
                     <Link href='#projects'><a className={styles.linki} >PROJECTS</a></Link>
