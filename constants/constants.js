@@ -34,7 +34,7 @@ export const projects = [
     images: ['/images/mock7.png'],
     tags: ['React', 'JavaScript'],
     pwa:false,
-    visit: 'https://duskdawn.netlify.app/',
+    visit: 'https://weather-app-one-umber.vercel.app/',
     id: 3,
   },
 ];
