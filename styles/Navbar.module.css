@@ -86,6 +86,14 @@
     .i{
         font-size: x-small;
     }
+
+    .header{
+        position: relative !important;
+    }
+    .collapse{
+        position: absolute;
+        z-index: 2;
+    }
 }
 
 @media screen and (max-width:300px) {
