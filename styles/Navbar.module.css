@@ -11,6 +11,10 @@
 .header{
     background-color: rgba(0,0,0,.95);
     font-family: 'Montserrat', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 5rem;
 }
 
 .icon{
@@ -86,6 +90,9 @@
         z-index: -1;
         padding-top: 2rem;
         width: 100%;
+    }
+    .header{
+        height: auto;
     }
 }
 
