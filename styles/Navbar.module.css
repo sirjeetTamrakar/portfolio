@@ -89,9 +89,7 @@
 
     .collapse{
         position: absolute;
-        z-index: 2;
         top:0;
-        background-color: rgba(0,0,0,.95);
     }
 }
 
