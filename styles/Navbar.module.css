@@ -87,9 +87,6 @@
         font-size: x-small;
     }
 
-    .header{
-        position: relative !important;
-    }
     .collapse{
         position: absolute;
         z-index: 2;
