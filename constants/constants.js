@@ -13,7 +13,7 @@ export const projects = [
     title: 'Galerie de Gradient',
     description:"Choose gradients and colors you like on a click!",
     images: ['/images/mock3.png','/images/mock4.png'],
-    tags: ['React', 'JavaScript', 'PWA'],
+    tags: ['JavaScript', 'React', 'PWA'],
     source: 'https://google.com',
     pwa:true,
     visit: 'https://gradientio.netlify.app/',
