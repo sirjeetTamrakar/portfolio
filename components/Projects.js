@@ -6,7 +6,7 @@ import styles from '../styles/Projects.module.css'
 
 const Projects = () => {
     return (
-        <div>
+        <div >
         <h1  className={styles.head}>PROJECTS</h1>
         <div className={styles.main} >
             {projects.map(({title, visit, images, tags, id }) => (

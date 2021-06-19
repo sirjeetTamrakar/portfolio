@@ -11,9 +11,6 @@
 .header{
     background-color: rgba(0,0,0,.95);
     font-family: 'Montserrat', sans-serif;
-    position:sticky;
-    top:0;
-    z-index: 2;
 }
 
 .icon{
@@ -81,15 +78,21 @@
     transition: all 0.2s ease-in-out;
 }
 
+@media screen and (max-width:800px) {
+    .collapse{
+        position: absolute;
+        top:0;
+        background-color: rgba(0,0,0,.95);
+        z-index: -1;
+        padding-top: 2rem;
+        width: 100%;
+    }
+}
+
 
 @media screen and (max-width:500px) {
     .i{
         font-size: x-small;
-    }
-
-    .collapse{
-        position: absolute;
-        top:0;
     }
 }
 

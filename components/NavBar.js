@@ -7,7 +7,7 @@ const NavBar = () => {
     const [expanded, setExpanded] = useState(false)
     return (
         <>
-            <Navbar  expanded={expanded} className={styles.header} expand="lg">
+            <Navbar  sticky='top'  expanded={expanded} className={styles.header} expand="lg">
                 <Navbar.Toggle style={{color:'white'}} onClick={() => setExpanded(expanded ? false : "expanded")} >{!expanded ? <i className="fas fa-bars"></i> : <i className="fas fa-times"></i>}</Navbar.Toggle>
                 <Navbar.Collapse onClick={() => setExpanded(expanded ? false : "expanded")} className={`justify-content-start ${styles.collapse}`}>
                 <Nav>
