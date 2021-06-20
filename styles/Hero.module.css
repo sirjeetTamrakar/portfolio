@@ -86,10 +86,10 @@
 }
 @media screen and (min-width:1600px) {
     .hero{
-       grid-template-columns: .5fr 1fr;
+       grid-template-columns: .5fr .8fr;
     }
     .title{
-        font-size: 5rem;
+        font-size: 6rem;
     }
 }
 
