@@ -158,6 +158,7 @@
     .tags{
         grid-template-columns: auto;
         row-gap: 1rem;
+        column-gap: 0;
     }
 
 }
