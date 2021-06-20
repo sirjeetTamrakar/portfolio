@@ -88,5 +88,8 @@
     .hero{
        grid-template-columns: .5fr 1fr;
     }
+    .title{
+        font-size: 5rem;
+    }
 }
 
