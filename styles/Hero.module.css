@@ -90,5 +90,9 @@
        grid-template-columns: 1fr 1.5fr;
     }
 }
-
+@media screen and (min-width:1700px) {
+    .hero{
+       grid-template-columns: 1fr 1.2fr;
+    }
+}
 
