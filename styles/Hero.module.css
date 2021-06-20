@@ -88,8 +88,5 @@
     .hero{
        grid-template-columns: .5fr 1fr;
     }
-    .me{
-        padding-left: 4rem;
-    }
 }
 
