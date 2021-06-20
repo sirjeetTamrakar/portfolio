@@ -91,8 +91,8 @@
         height: auto;
     }
     .overlay{
-        padding: 0rem 20rem;
-        margin: 0rem 20rem;
+        height: auto;
+        width: 60%;
     }
 }
 
