@@ -87,12 +87,7 @@
 
 @media screen and (min-width:1400px) {
     .hero{
-        display: block;
-        height: auto;
-    }
-    .overlay{
-        height: auto;
-        width: 60%;
+       grid-template-columns: 1fr 1.5fr;
     }
 }
 
