@@ -11,7 +11,7 @@ const Hero = () => {
                 <Link   href='#contact'><button  id='projects' data-aos="zoom-in-right" data-aos-offset="100" className={styles.button}>Contact Me</button></Link>
             </div>
             <div  className={styles.overlay} data-aos-offset="100" data-aos-duration="3000" data-aos="zoom-in-left">
-                <Image src='/images/i.png' alt='Srijeet Tamrakar' priority layout='fill' className={styles.image} />
+                <Image src='/images/i.png' alt='Srijeet Tamrakar' priority width={1080} height={810}  className={styles.image} />
             </div>
         </div>
     )

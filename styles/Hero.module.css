@@ -36,12 +36,6 @@
     transition: all .1s ease-in-out;
 }
 
-.overlay{
-    width: 100%;
-    height: 70vh;
-    position: relative;
-    background-color: black;
-}
 
 .button{
     text-decoration: none;
