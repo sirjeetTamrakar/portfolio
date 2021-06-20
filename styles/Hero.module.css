@@ -88,7 +88,7 @@
 @media screen and (min-width:1400px) {
     .hero{
         display: block;
-        min-height: 100vh;
+        height: auto;
     }
     .overlay{
         padding: 0rem 20rem;
