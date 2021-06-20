@@ -157,7 +157,7 @@
     }
     .tags{
         grid-template-columns: auto;
-        row-gap: .5rem;
+        grid-row-gap: .5rem;
     }
 
 }
