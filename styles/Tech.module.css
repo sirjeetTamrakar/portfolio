@@ -31,7 +31,7 @@
 
 .item{
     transition: all .3s ease-in-out;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .item:hover{
@@ -99,14 +99,17 @@
     .head{
         font-size:1.7rem;
     }
+    .item{
+        font-size: 1.2rem;
+    }
 }
 
-@media screen and (max-width:300px){
+@media screen and (max-width:340px){
     .head{
         font-size:1.2rem;
     }
     .item{
-        font-size: .5rem;
+        font-size: .8rem;
     }
     
 }
