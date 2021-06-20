@@ -86,7 +86,7 @@
 }
 @media screen and (min-width:1700px) {
     .hero{
-       grid-template-columns: 1fr 1.2fr;
+       grid-template-columns: .5fr 1.2fr;
     }
 }
 
