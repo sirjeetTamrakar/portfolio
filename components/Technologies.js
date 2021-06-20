@@ -10,7 +10,7 @@ const Technologies = () => {
                 {tech.map(({ text, icon }) => (
                     <div key={text} className={styles.item}>
                         <i className={icon}></i>
-                        <div>{text}</div>
+                        <div className={styles.text}>{text}</div>
                     </div>    
                 ))}                
             </div>

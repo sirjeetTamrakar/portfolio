@@ -31,7 +31,11 @@
 
 .item{
     transition: all .3s ease-in-out;
-    font-size: 1.5rem;
+    font-size: 2rem;
+}
+
+.text{
+    font-size: 1.2rem;
 }
 
 .item:hover{
@@ -100,8 +104,11 @@
         font-size:1.7rem;
     }
     .item{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
+    .text{
+    font-size: 1rem;
+}
 }
 
 @media screen and (max-width:340px){
@@ -109,8 +116,11 @@
         font-size:1.2rem;
     }
     .item{
-        font-size: .8rem;
+        font-size: 1rem;
     }
+    .text{
+    font-size: .8rem;
+}
     
 }
 
