@@ -89,6 +89,9 @@
     .hero{
         display: block;
     }
+    .overlay{
+        padding: 0rem 5rem;
+    }
 }
 
 
