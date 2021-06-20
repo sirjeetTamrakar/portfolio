@@ -9,7 +9,7 @@ const Technologies = () => {
             <div data-aos="zoom-in-down" className={styles.items}>
                 {tech.map(({ text, icon }) => (
                     <div key={text} className={styles.item}>
-                        <i className={icon} style={{ fontSize: '2rem' }}></i>
+                        <i className={icon}></i>
                         <div>{text}</div>
                     </div>    
                 ))}                
