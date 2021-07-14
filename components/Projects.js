@@ -15,7 +15,7 @@ const Projects = ({ projectList }) =>
                         <Carousel  nextIcon='' prevIcon=''>
                             {images.map((image, i) => (
                                 <Carousel.Item key={i}>
-                                    <Image data-aos="zoom-in-down" className={styles.image} src={image} height={810} width={1080} alt='project_image' />
+                                    <Image data-aos="zoom-in-down" placeholder='blur'  priority className={styles.image} src={image} height={810} width={1080} quality={10} alt='project_image' />
                                 </Carousel.Item>
                             ))}
                         </Carousel>
