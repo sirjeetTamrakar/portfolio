@@ -21,7 +21,7 @@
 .div{
     background-color: rgb(24, 22, 22);
     border-radius: 1rem;
-    box-shadow: 4px 20px 20px rgb(53, 53, 53);
+    box-shadow: 4px 4px 20px rgb(53, 53, 53);
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr ;
