@@ -20,20 +20,18 @@
 
 .image:hover{
     transform: scale(1.03);
-    transition: all .4s ease-in-out;
 }
 
 
 
 .title{
     font-size: 3.5rem;
-    transition: all .1s ease-in-out;
+    transition: color .4s ease-in-out !important;
 }
 
 .title:hover{
     color: aqua;
     cursor: pointer;
-    transition: all .1s ease-in-out;
 }
 
 
@@ -45,11 +43,11 @@
     padding: .5rem 2rem;
     border: 2px solid white;
     margin-top:2rem;
-    transition: all .1s ease-in-out;
+    transition: color .8s ease-in-out !important;
+    transition: border .5s ease-in-out !important;
 }
 
 .button:hover{
-        transition: all .1s ease-in-out;
         color: aqua;
         border: 2px solid aqua;
 
