@@ -25,7 +25,7 @@ const NavBar = () => {
 						<Nav>
 							<Link href='#home'>
 								<a
-									data-aos-delay='2500'
+									data-aos-delay='2400'
 									data-aos='zoom-in-up'
 									data-aos-once='true'
 									className={styles.linki}
@@ -46,7 +46,7 @@ const NavBar = () => {
 							</Link>
 							<Link href='#about'>
 								<a
-									data-aos-delay='2700'
+									data-aos-delay='2800'
 									data-aos='zoom-in-up'
 									data-aos-once='true'
 									className={styles.linki}
@@ -56,7 +56,7 @@ const NavBar = () => {
 							</Link>
 							<Link href='#contact'>
 								<a
-									data-aos-delay='2800'
+									data-aos-delay='3000'
 									data-aos='zoom-in-up'
 									data-aos-once='true'
 									className={styles.linki}

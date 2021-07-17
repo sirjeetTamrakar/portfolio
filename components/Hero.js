@@ -16,14 +16,14 @@ const Hero = () => {
 						data-aos-once='true'
 						className={styles.title}
 					>
-						I am a Full Stack Developer
+						<span>I am a Full Stack Developer</span>
 					</h1>
 					<br />
 					<Link href='#contact'>
 						<button
 							id='projects'
 							data-aos='zoom-in-right'
-							data-aos-delay='1800'
+							data-aos-delay='2000'
 							data-aos-once='true'
 							className={styles.button}
 						>
@@ -33,7 +33,7 @@ const Hero = () => {
 				</div>
 				<div
 					className={styles.overlay}
-					data-aos-duration='2000'
+					data-aos-duration='2300'
 					data-aos='zoom-in-left'
 					data-aos-once='true'
 				>

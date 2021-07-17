@@ -26,10 +26,14 @@
 
 .title{
     font-size: 3.5rem;
-    transition: color .4s ease-in-out !important;
+    
 }
 
-.title:hover{
+.title>span{
+    transition: color .4s ease-in-out;
+}
+
+.title>span:hover{
     color: aqua;
     cursor: pointer;
 }
@@ -43,15 +47,15 @@
     padding: .5rem 2rem;
     border: 2px solid white;
     margin-top:2rem;
-    transition: color .8s ease-in-out !important;
-    transition: border .5s ease-in-out !important;
+    transition: color .5s ease-in-out ;
+    transition: border .5s ease-in-out ;
 }
 
 .button:hover{
         color: aqua;
         border: 2px solid aqua;
-
 }
+
 
 @media screen and (max-width:1025px) {
     .overlay{
