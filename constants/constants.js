@@ -14,7 +14,7 @@ export const projects = [
 						description:
 							"Tired of counting the days to something special? Countdown timer is here to make your life easier.",
 						images: ["/images/mock1.png", "/images/mock2.png"],
-						tags: ["MongoDB", "Express", "React", "Node", "PWA"],
+						tags: ["MongoDB", "Express", "React", "Node","Redux","PWA"],
 						pwa: true,
 						source: "https://google.com",
 						visit: "https://countdowntimer7.netlify.app/",

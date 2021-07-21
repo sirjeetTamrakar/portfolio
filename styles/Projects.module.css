@@ -90,14 +90,12 @@
     border-radius: 999rem;
     padding: .5rem 2rem;
     border: 2px solid white;
-    transition: all .3s ease-in-out;
     outline: none;
     margin-top: 2rem;
 }
 
 .button:hover{
     border-color: aqua;
-    transition: all .3s ease-in-out;
     transform: scale(1.02);
     color: aqua;
 }
