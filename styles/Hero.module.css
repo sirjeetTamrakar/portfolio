@@ -1,97 +1,91 @@
-.hero{
-    color: white;
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    width: 100%;
-    height: 95vh;
-    background-color: black;
-    padding-top: 5rem;
-    font-family: 'Montserrat', sans-serif;
+.hero {
+  color: white;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  width: 100%;
+  height: 95vh;
+  background-color: black;
+  padding-top: 5rem;
+  font-family: "Montserrat", sans-serif;
 }
 
-.me{
-    padding-left: 2rem;  
-    padding-bottom: 2rem;
+.me {
+  padding-left: 2rem;
+  padding-bottom: 2rem;
 }
 
-.image{
-    transition: all .4s ease-in-out;
+.image {
+  transition: all 0.4s ease-in-out;
 }
 
-.image:hover{
-    transform: scale(1.03);
+.image:hover {
+  transform: scale(1.03);
 }
 
-
-
-.title{
-    font-size: 3.5rem;
-    
+.title {
+  font-size: 3.5rem;
 }
 
-.title>span{
-    transition: color .4s ease-in-out;
+.title > span {
+  transition: color 0.4s ease-in-out;
 }
 
-.title>span:hover{
-    color: aqua;
-    cursor: pointer;
+.title > span:hover {
+  color: aqua;
+  cursor: pointer;
 }
 
-
-.button{
-    text-decoration: none;
-    background-color: black;
-    color: white;
-    border-radius: 999rem;
-    padding: .5rem 2rem;
-    border: 2px solid white;
-    margin-top:2rem;
-    transition: color .5s ease-in-out ;
-    transition: border .5s ease-in-out ;
+.button {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border-radius: 999rem;
+  padding: 0.5rem 2rem;
+  border: 2px solid white;
+  margin-top: 2rem;
+  transition: color 0.5s ease-in-out;
+  transition: border 0.5s ease-in-out;
 }
 
-.button:hover{
-        color: aqua;
-        border: 2px solid aqua;
+.button:hover {
+  color: aqua;
+  border: 2px solid aqua;
 }
 
-
-@media screen and (max-width:1025px) {
-    .overlay{
-        display: none;
-    }
-    .hero{
-        display: flex;
-        justify-content: center;
-        height: 100%;
-        padding-top: 2rem;
-    }
+@media screen and (max-width: 1025px) {
+  .overlay {
+    display: none;
+  }
+  .hero {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding-top: 2rem;
+  }
 }
 
-@media screen and (min-width:500px) {
-    .title{
-        font-size: 5rem;
-    }
+@media screen and (min-width: 500px) {
+  .title {
+    font-size: 5rem;
+  }
 }
 
-@media screen and (max-width:400px) {
-    .title{
-        font-size: 2rem;
-    }
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 2rem;
+  }
 }
 
-@media screen and (min-width:1400px) {
-    .hero{
-       grid-template-columns: 1fr 1.5fr;
-    }
+@media screen and (min-width: 1400px) {
+  .hero {
+    grid-template-columns: 1fr 1fr;
+  }
 }
-@media screen and (min-width:1600px) {
-    .hero{
-       grid-template-columns: .5fr .8fr;
-    }
-    .title{
-        font-size: 6rem;
-    }
+@media screen and (min-width: 1600px) {
+  .hero {
+    grid-template-columns: 0.5fr 0.8fr;
+  }
+  .title {
+    font-size: 6rem;
+  }
 }
-
