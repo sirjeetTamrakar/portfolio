@@ -1,107 +1,104 @@
-.footer{
-    background-color: black;
-    text-align: center;
-    color: white;
-    padding: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 4rem;
-
+.footer {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 4rem;
 }
 
-.header{
-    background-color: rgba(0,0,0,.95);
-    font-family: 'Montserrat', sans-serif;
-    position: sticky;
+.header {
+  background-color: rgba(0, 0, 0, 0.95);
+  font-family: "Montserrat", sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  height: 5rem;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  letter-spacing: 2rem;
+  margin-inline-start: 2rem;
+  cursor: pointer;
+}
+
+.linki {
+  text-decoration: none;
+  color: rgb(202, 201, 201);
+  padding-inline: 2rem;
+  padding-bottom: 1rem;
+  font-size: x-large;
+  margin-top: 2rem;
+}
+
+.phone {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.i {
+  transition: all 0.2s ease-in-out;
+  font-size: x-large;
+  letter-spacing: 0.1rem;
+}
+
+.i:hover {
+  transform: scale(1.01);
+  transition: all 0.2s ease-in-out;
+}
+
+.i:nth-child(1):hover {
+  color: rgb(121, 224, 173);
+}
+.i:nth-child(2):hover {
+  color: rgb(245, 140, 193);
+}
+.i:nth-child(3):hover {
+  color: rgb(119, 200, 238);
+}
+
+.linki:hover {
+  color: #fff;
+}
+
+.a {
+  text-decoration: none;
+  color: rgb(180, 180, 180);
+  transition: all 0.2s ease-in-out;
+}
+
+.a:hover {
+  color: rgb(233, 48, 104);
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 800px) {
+  .collapse {
+    position: absolute;
     top: 0;
-    z-index: 2;
-    height: 5rem;
+    background-color: rgba(0, 0, 0, 0.95);
+    z-index: -1;
+    padding-top: 2rem;
+    width: 100%;
+  }
+  .header {
+    height: auto;
+  }
 }
 
-.icon{
-    display: flex;
-    justify-content:center;
-    font-size: 1.25rem;
-    margin-top: 2rem;
-    letter-spacing: 2rem;
-    margin-inline-start: 2rem;
-    cursor: pointer;
+@media screen and (max-width: 500px) {
+  .i {
+    font-size: x-small;
+  }
 }
 
-.linki{
-    text-decoration: none;
-    color:rgb(202, 201, 201);
-    padding-inline: 2rem;
-    padding-bottom: 1rem;
-    font-size:x-large;
-    margin-top: 2rem;
-
-}
-
-.phone{
-    margin-top: 2rem;
-    cursor: pointer;
-}
-
-.i{
-    transition: all 0.2s ease-in-out;
-    font-size: x-large;
-    letter-spacing: .1rem;
-}
-
-.i:hover{
-    transform: scale(1.01);
-    transition: all 0.2s ease-in-out;
-}
-
-.i:nth-child(1):hover{
-    color: rgb(121, 224, 173);
-}
-.i:nth-child(2):hover{
-    color: rgb(245, 140, 193);
-}
-.i:nth-child(3):hover{
-    color: rgb(119, 200, 238);
-}
-
-.linki:hover{
-    color: white;    
-}
-
-.a{
-    text-decoration: none;
-    color: rgb(180, 180, 180);
-    transition: all 0.2s ease-in-out;
-}
-
-.a:hover{
-    color: rgb(233, 48, 104);
-    transform: scale(1.05);
-    transition: all 0.2s ease-in-out;
-}
-
-@media screen and (max-width:800px) {
-    .collapse{
-        position: absolute;
-        top:0;
-        background-color: rgba(0,0,0,.95);
-        z-index: -1;
-        padding-top: 2rem;
-        width: 100%;
-    }
-    .header{
-        height: auto;
-    }
-}
-
-
-@media screen and (max-width:500px) {
-    .i{
-        font-size: x-small;
-    }
-}
-
-@media screen and (max-width:300px) {
-    .i{
-        font-size: .7rem;
-    }
+@media screen and (max-width: 300px) {
+  .i {
+    font-size: 0.7rem;
+  }
 }

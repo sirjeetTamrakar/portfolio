@@ -1,71 +1,69 @@
-.main{
-    color:white;
-    background-color: black;
-    cursor: pointer;
+.main {
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
 }
 
-.head{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: .5rem;
-    font-size:3rem;
+.head {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.5rem;
+  font-size: 3rem;
 }
 
 .grid {
   width: 100%;
   border-width: 2rem;
-  font-family: 'Inconsolata', monospace;
-  background-color: black;
-  color: white;
+  font-family: "Inconsolata", monospace;
+  background-color: #000;
+  color: #fff;
   padding: 4rem 10rem;
 }
 
 .p {
-
   border-top: 2px solid white;
   border-color: rgb(123, 155, 214) !important;
-  margin:0; padding: 30px;
+  margin: 0;
+  padding: 30px;
 }
-
-
 
 .p:nth-child(even) {
   border-left: 2px solid white;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  margin-right: 30px; 
+  margin-right: 30px;
   padding-right: 0;
 }
 
 .p:nth-child(odd) {
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-  margin-left: 30px; 
+  margin-left: 30px;
   padding-left: 0;
 }
 
 .p:first-child {
   border-top: 0;
-  border-top-right-radius:0;
-  border-top-left-radius:0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
 }
 
 .p:last-child {
-  border-bottom-right-radius:0;
-  border-bottom-left-radius:0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
-@media screen and (max-width:1025px){
-    .grid{
-        padding: 2rem;
-    }
-    .head{
-        font-size:2rem;
-    }
+@media screen and (max-width: 1025px) {
+  .grid {
+    padding: 2rem;
+  }
+  .head {
+    font-size: 2rem;
+  }
 }
 
-@media screen and (max-width:300px){
-    .head{
-        font-size:1.2rem;
-    }
+@media screen and (max-width: 300px) {
+  .head {
+    font-size: 1.2rem;
+  }
 }
