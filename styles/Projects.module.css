@@ -64,6 +64,7 @@
 .image {
   border-radius: 1rem;
   transition: all 0.3s ease-in;
+  object-fit: contain;
 }
 
 .image:hover {

@@ -4,12 +4,12 @@ import styles from "../styles/About.module.css";
 const About = () => {
   return (
     <div id="about" className={styles.main}>
-      <h1 className={styles.head}>ABOUT ME</h1>
+      {/* <h1 className={styles.head}>ABOUT ME</h1>
       <h3
         data-aos="zoom-in-up"
         data-aos-once="true"
         className={styles.about}
-      >{`Hello! This is Srijeet Tamrakar. I have been learning full stack web development for the past 3 years. I am a self taught web developer constantly learning new things and growing everyday. I hope to see myself working with you. Cheers!`}</h3>
+      >{`Hello! This is Srijeet Tamrakar. I have been learning full stack web development for the past 3 years. I am a self taught web developer constantly learning new things and growing everyday. I hope to see myself working with you. Cheers!`}</h3> */}
       <h1 style={{ marginTop: "4rem" }}>INTERESTS</h1>
       <div
         data-aos="zoom-in-up"

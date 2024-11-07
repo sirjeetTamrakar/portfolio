@@ -1,6 +1,6 @@
-import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 import styles from "../styles/Hero.module.css";
 
 const Hero = () => {
@@ -16,7 +16,7 @@ const Hero = () => {
           data-aos-once="true"
           className={styles.title}
         >
-          <span>I am a Full Stack Developer</span>
+          <span>I am a Front End Developer</span>
         </h1>
         <br />
         <Link href="#contact">
